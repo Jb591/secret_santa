@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "secret-santa"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+polars = "^1.17.1"
+twilio = "^9.4.1"
+pydantic = "^2.10.3"
+toml = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
